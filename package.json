@@ -5,6 +5,7 @@
   "engines": {
     "node": ">=14.17.x"
   },
+  "version": "1.0",
   "scripts": {
     "build": "yarn build:api-client && yarn build:composables && yarn build:theme",
     "build:api-client": "cd packages/api-client && yarn build",

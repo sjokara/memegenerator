@@ -16,6 +16,7 @@
     "build:package": "node ../../scripts/build --file=src/index.ts",
     "build:types": "tsc --emitDeclarationOnly",
     "dev": "yarn build:package --watch",
+    "precommit": "lint-staged",
     "prepublish": "yarn build",
     "test": "jest",
     "update:check": "ncu",
