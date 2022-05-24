@@ -23,15 +23,13 @@
     "update:update": "ncu -u"
   },
   "dependencies": {
-    "@vue-storefront/memegenerator-api": "https://gitpkg.now.sh/sjokic98/memegenerator/packages/api-client?main",
-    "@vue-storefront/core": "~2.5.4"
+    "@nuxtjs/composition-api": "^0.29.3",
+    "@vue-storefront/core": "~2.5.4",
+    "@vue-storefront/memegenerator-api": "https://gitpkg.now.sh/sjokic98/memegenerator/packages/api-client\\?main"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
     "rollup-plugin-typescript2": "^0.30.0"
-  },
-  "peerDependencies": {
-    "@nuxtjs/composition-api": "^0.29.3"
   },
   "files": [
     "lib/**/*"
