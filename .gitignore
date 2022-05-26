@@ -14,8 +14,6 @@ lerna-debug.log*
 .yarn-integrity
 
 # Rollup generate output
-lib
-
 # Coverage directory used by tools like istanbul
 coverage
 
